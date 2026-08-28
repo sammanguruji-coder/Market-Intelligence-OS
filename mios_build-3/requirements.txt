@@ -1,0 +1,12 @@
+# Market Intelligence OS
+# Install into the SAME interpreter that runs Streamlit:
+#     python -m pip install -r requirements.txt
+
+streamlit>=1.36
+plotly>=5.22
+python-dotenv>=1.0
+
+# Retrieval and model layers. Both are optional — the app runs in demo
+# mode without them, and degrades to its deterministic writer without Groq.
+tavily-python>=0.5
+groq>=0.11
